@@ -1,12 +1,23 @@
 <%- include('partials/header') %>
 
 <main>
-    <h1><%= title %></h1>
+    <!-- <h1><%= title %></h1> -->
 
-    <h2>Welcome to the CSE 340 Service Network!</h2>
-    <p>Our mission is to promote service across the world by connecting volunteers with service opportunities in their community.</p>
+    <h2>Welcome to Xness </h2>
+    <p> <em>Your one-stop destination for quality products and trusted sellers. Start browsing today and discover amazing opportunities.</em></p>
+   <form action="/search" method="GET" class="search-form">
+    <input
+        type="text"
+        name="query"
+        placeholder="Search products..."
+        class="search-input"
+    >
+    <button type="submit" class="search-btn">
+        Search
+    </button>
+</form>
 
-    <img class="main-logo" src="images/cse340-service-network.png" alt="CSE 340 Service Network Logo">
+    <img class="main-logo" width="700" src="images/building.jpg" alt="CSE 340 Service Network Logo">
 
 </main>
 
